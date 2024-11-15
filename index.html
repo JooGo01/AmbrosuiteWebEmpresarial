@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambrosuite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/estilo.css">
+	<link rel="stylesheet" href="estilo/carrousel.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">Ambrosuite</div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="paginas/aboutus.html">Sobre Nosotros</a></li>
+                    <li><a href="paginas/servicios.html">Servicios</a></li>
+                    <li><a href="paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <p class="exclusive">Inicio</p>
+            <h2>Bienvenidos a Ambrosuite!</h2>
+            <p>Ambrosuite es una solución ERP innovadora diseñada especialmente para los restaurantes de lujo que buscan optimizar cada aspecto de su operación. Nuestro sistema centraliza la gestión de pedidos, el control de inventario, y la capacitación del personal en una sola plataforma intuitiva y eficiente. Con Ambrosuite, los restaurantes de alta gama pueden reducir tiempos de espera, minimizar desperdicios y elevar la experiencia del cliente, todo mientras simplifican sus procesos internos. Desde Buenos Aires, nos dedicamos a transformar la industria gastronómica, llevando la gestión de calidad a un nuevo nivel.</p>
+            <section>
+				<div class="carousel">
+					<div class="carousel-container">
+                        <img src="imagenes/res4.jpg" alt="Amrbosuite 2024" class="carousel-item">
+						<img src="imagenes/res1.jpg" alt="Imagen 1" class="carousel-item">
+						<img src="imagenes/res2.jpg" alt="Imagen 2" class="carousel-item">
+						<img src="imagenes/res3.jpg" alt="Imagen 3" class="carousel-item">
+					</div>
+					<button class="carousel-button prev" aria-label="Imagen anterior">&lt;</button>
+					<button class="carousel-button next" aria-label="Imagen siguiente">&gt;</button>
+				</div>
+			</section>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+	<script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
